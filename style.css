@@ -1,0 +1,143 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{ 
+    background-color: #122030;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3{
+    color: #FFFF;
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+p{
+    color: #FFFF;
+    font-size: 30px;
+    text-align: justify;
+    padding: 60px;
+}
+
+li{
+    color: #FFFF;
+    font-size: 25px;
+    text-align: left;
+    align-items: left;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav button {
+    background-color: #5eec5ec0;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(25, 25, 25);
+    font-weight: bold;
+    font-size: 30px;
+    width: 200px;
+    padding: 10px;
+    margin: 5% 70px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 650px;
+    align-items: center;
+}
+
+table img{
+    border-radius: 5px;
+    width: 500px;
+    height: 550px;
+    padding-top: 8pt;
+    margin: 20px;
+}
+
+table p{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #FFFF;
+}
+
+.tabela a{
+    line-height: 100px;
+    font-size: 10mm;
+}
+
+.tabela img {
+    height: 700px;
+    width: 700pt;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.texto{
+    text-align: justify;
+    font-size: 6mm;
+    color: #FFF;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+
+footer{
+    
+    color: #FFF;
+    font-size: 12pt;
+    background-color: #142538;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#rodape{
+    margin: 10px;
+    background-color: #142538;
+}
+
+small{
+    text-align: left;
+    font-size: 10pt;
+}
+
+
+.rodapé{
+    text-align: right;
+}
+
+a:link { /*Sem visita*/
+    color: antiquewhite;
+}
+
+a:visited{ /*Visitado*/
+    color: whitesmoke;
+}
+
+a:hover{ /*Animação*/
+    color: beige;
+}
+
+a:active{ /*Momento em que a interação do click*/
+    color: aliceblue;
+}
+
+@media screen and (max-width: 768px){ 
+    
+*{width: 100%; flex-direction: column;}
+
+}

@@ -1,0 +1,1 @@
+const menulinks = document.querySelectorAll(".menu a")
